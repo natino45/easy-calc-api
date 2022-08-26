@@ -21,9 +21,9 @@ class Triangle
     /**
      * Check if Triangle is valid
      *
-     * @return void
+     * @return bool
      */
-    public function isValid()
+    public function isValid(): bool
     {
         if (
             $this->sideA + $this->sideB <= $this->sideC ||
