@@ -30,11 +30,6 @@ class Circle
      *
      * @return float
      */
-    /**
-     * circumference
-     *
-     * @return float
-     */
     public function circumference(): float
     {
         $circumference = 2 * pi() * $this->radius;
